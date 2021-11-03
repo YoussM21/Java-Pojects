@@ -1,0 +1,81 @@
+#la programmation imperative:
+  La programmation impérative est un paradigme de programmation informatique dans lequel le programme 
+  décrit des étapes qui modifient l'état de l'ordinateur. la programmation impérative indique explicitement 
+  à l'ordinateur "comment" faire quelque chose au lieu de "quoi" faire. 
+
+#La programmation procédural:
+  La programmation procédurale, également connue sous le nom de programmation en ligne, adopte une approche top-down.
+  Elle consiste à écrire une liste d'instructions pour indiquer à l'ordinateur ce qu'il doit faire, étape par étape.
+  Elle s'appuie sur des procédures ou des routines.
+  EXEMPLE: 
+  public class Example { 
+  public static void main(String[] args) { 
+  	display( "Hello world" ); 
+  } 
+ 
+  private static void display(String text) { 
+    System.out.println(text); 
+  } 
+}
+
+#La programmation fonctionnelle:
+  La programmation fonctionnelle consiste à faire passer des données d'une fonction à une autre pour obtenir un résultat.
+  Dans la programmation fonctionnelle, les fonctions peuvent être utilisées comme paramètres, les retourner,
+  construire des fonctions à partir d'autres fonctions, et construire des fonctions personnalisées.
+  EXEMPLE: 
+import java.util.Arrays;
+import java.util.List;
+public class GFG {
+    public static void main(String[] args)
+    {
+ 
+        Runnable r = new Runnable() {
+            public void run()
+            {
+                System.out.println(
+                    "Running in Runnable thread");
+            }
+        };
+ 
+        r.run();
+        System.out.println(
+            "Running in main thread");
+    }
+}
+
+#La programmation objet-orienté:
+  La programmation orientée objet consiste à encapsuler les données et le comportement dans des objets. 
+  Une application utilise une collection d'objets qui savent comment effectuer certaines actions 
+  et comment interagir avec d'autres éléments de l'application.
+  EXEMPLE:
+  public class Main {
+
+    public static void main(String[] args) {
+       /*
+       Creating objects
+        */
+       Cat thor = new Cat();
+       Cat rambo = new Cat();
+
+       /*
+       Defining Thor cat
+        */
+       thor.name = "Thor";
+       thor.age = 3;
+       thor.breed = "Russian Blue";
+       thor.color = "Brown";
+
+       thor.sleep();
+
+       /*
+       Defining Rambo cat
+        */
+       rambo.name = "Rambo";
+       rambo.age = 4;
+       rambo.breed = "Maine Coon";
+       rambo.color = "Brown";
+
+       rambo.play();
+    }
+
+}

@@ -1,0 +1,13 @@
+- Inspiré par le championnat de l'UEFA euro 2020 qui se déroule actuellement du 11 juin au 11 juillet. j'ai créé un choix multiple quiz programme, qui va permettre à un utilisateur de répondre à des questions et pendant qu'il répond à ce quiz, il sera capable de garder une trace de comme quoi questions qu'il a correct, et lesquelles ils se tromper et lui donner une note à la fin. Le quiz est composé de 4 questions d'informations générales sur le tournoi d'Euro.
+
+- j'ai commencé par créer les questions
+- Je veux créer une classe qui peut représenter une question pour notre quiz à choix multiples, donc une question a vraiment deux attributs : il y a le prompt de la question et ensuite la réponse (answer) de la question.
+- créer un array des questions et des réponses
+- créer une méthode qui va nous permettre de noté le score et jouer le quiz
+Dans cette methode :
+- créer un for loop pour gérer les questions et compter le score
+- nous avons accès aux questions à cause du tableau(array)
+- variable pour stocker les réponses
+- if statement pour checker si les réponses sont correct ou non ( si les réponses sont correctes le score augmente de 1, si non le score ne change pas)
+- conditions pour quitter le quiz (pour quitter taper "d")
+- afficher le score final

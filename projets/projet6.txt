@@ -1,0 +1,12 @@
+1.  Un variable primitive représente des valeurs numériques, telles que des integers. 
+    Un variable de référence représente des objets, tels que des chaînes de caractères.
+
+    Les types primitifs sont comparés avec ==. Ce ne sont pas des objets et ils n'ont donc pas de méthode .equals().
+    Les types de référence, tels que les objets créés avec "new", ont une méthode héritée .equals() qui vérifie la classe.
+
+2. - la valeur "profonde" est la valeur du string, c'est toujours l'objet réel. 
+     une copie profonde est une copie totalement indépendante d'un objet.
+   - La valeur superficielle d'un objet est toujours la référence, 
+     Une copie superficielle d'un objet copie l'objet " main ", mais ne copie pas les objets internes.
+    
+3. - c'est quoi un objet java: Une entité qui possède un état et un comportement est appelée un objet. cet objet a une valeur. Ce objet peut fonctionner avec divers types, il fonctionne avec primitive types comme short, byte, long et ce sont tous des types de integers qui peuvent definir dans un objet. Et c'est la même chose pour les référence types comme les Strings. 

@@ -1,0 +1,15 @@
+1. - Les méthodes public sont des méthodes qui sont accessibles à la fois à l'intérieur et à l'extérieur de votre  classe.
+   Toute instance de cette classe aura accès aux méthodes publiques et pourra les utiliser.
+   - Les méthodes private ne sont pas accessibles en dehors  de la classe, quelle que soit . Si vous essayez d'invoquer une méthode privée avec un objet de classe, une erreur se produira.
+
+2. - Si nous voulons calculer une valeur, nous définissons une méthode associée à l'objet qui fait cela. Ensuite, chaque fois que nous voulons effectuer cette action, nous appelons la méthode sur l'objet. c'est une bonne idée car:
+   * la fonctionnalité est définie en un seul endroit et non en plusieurs endroits.
+   * elle est définie dans un endroit logique - l'endroit où les données sont conservées.
+   * les données à l'intérieur de notre objet ne sont pas modifiées de manière inattendue par du code externe dans une partie complètement différente de notre programme.
+   C'est le principe d'encapsulation.
+
+3. - on doit faire le calcule dans notre fishier driver, lancer le programme de driver va subbire 
+
+4. 
+   1- le plus efficace est d'utiliser un tri définie dans la bibliothèque standard. La méthode de tri intégrée fournie    par la bibliothèque standard de Java est un tri O(n log n) (alias "log linéaire") trier.
+   2- Je devrais écrire le code et m'assurer qu'il fonctionne bien, et qu'il fait ce qu'il est censé faire. Après tout cela vient l'optimisation et c'est là que la plupart des programmeurs perdent la plupart de leur temps. Je n'ai pas à m'inquiéter que mon code soit rapide à 97%, les 3% ne feront pas une si grande différence. Mais s'il est lent, comme vraiment lent, alors oui, je dois l'optimiser. 
